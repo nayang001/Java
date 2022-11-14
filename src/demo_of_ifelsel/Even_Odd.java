@@ -1,0 +1,24 @@
+package demo_of_ifelsel;
+import java.util.Scanner;
+public class Even_Odd 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter any value");
+		int a=sc.nextInt();
+		
+		if(a%2==0)
+		{
+			System.out.println("Given number is EVEN");
+		}
+		else
+		{
+			System.out.println("Giver number is ODD");
+		}
+		
+		sc.close();
+	}
+
+}
