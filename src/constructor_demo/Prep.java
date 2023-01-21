@@ -32,6 +32,7 @@ public class Prep
 		Prep obj=new Prep();
 		obj= new Prep(45);
 		obj= new Prep(45,16);
+		obj=new Prep(45,85,12);
 
 	}
 

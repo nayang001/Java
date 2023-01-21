@@ -7,7 +7,7 @@ public class Demo_array2d
 
 	public static void main(String[] args) 
 	{
-		int a[][]= {{4,5,6},{1,2,3},{12,45,3}}; int x=a.length;
+		int a[][]= {{4,5,6},{1,2,3}}; int x=a.length;  System.out.println(x);
 		
 		for (int i=0;i<x;i++)
 		{

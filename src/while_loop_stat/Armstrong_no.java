@@ -5,7 +5,7 @@ public class Armstrong_no
 
 	public static void main(String[] args) 
 	{
-		int nod=0; int num=407;
+		int nod=0; int num=153;
 		for (int a=1;a<num;a*=10)
 		{
 			nod++;

@@ -18,13 +18,13 @@ public class ExceptionHandlingDemo
 			e.printStackTrace();
 			b=5;
 			c=a/b;
-			System.err.println(e);
+			System.out.println("Divison is "+c);
 		}
 		finally
 		{
 			System.out.println("Finally Code OR Independent code");
 		}
-		System.out.println("Divison is "+c);
+		//System.out.println("Divison is "+c);
 		
 		
 	}

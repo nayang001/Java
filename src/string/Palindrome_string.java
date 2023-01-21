@@ -5,7 +5,7 @@ public class Palindrome_string
 
 	public static void main(String[] args) 
 	{
-		String a="NAYAN";
+		String a="aBba";
 		int s=a.length();
 		System.out.println(a+" ←←← is a String and its length is →→→→ "+s);
 		System.out.println();
@@ -20,7 +20,7 @@ public class Palindrome_string
 		System.out.println("Reverse of the original String is →"+rev);
 		System.out.println();
 		
-		if (a.equals(rev))
+		if (a==(rev))
 		{
 			System.out.println("Given String is Palindrome ");
 		}

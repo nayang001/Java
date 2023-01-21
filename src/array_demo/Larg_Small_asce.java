@@ -7,17 +7,17 @@ public class Larg_Small_asce
 
 	public static void main(String[] args) 
 	{
-		int a[]= {4,2,5,3,6,1,9}; int l=a.length;
+		int a[]= {4,2,5,3,6,9,1}; int l=a.length;
 		int temp=0;
 		for (int i=0;i<l;i++)
 		{
-			for (int j=i+1;j<l;j++)
+			for (int j=i+1;j<l;j++)//1 2 3 4 5 6 9
 			{
 				if (a[i]>a[j])
 				{
-					temp=a[i];
-					a[i]=a[j];
-					a[j]=temp;
+					temp=a[j];
+					a[j]=a[i];
+					a[i]=temp;
 				}
 			}
 		}

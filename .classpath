@@ -44,5 +44,6 @@
 	<classpathentry kind="lib" path="E:/AT SOFT/Extent Report/jsoup-1.9.2.jar"/>
 	<classpathentry kind="lib" path="E:/AT SOFT/Extent Report/mongodb-driver-3.3.0.jar"/>
 	<classpathentry kind="lib" path="E:/AT SOFT/Extent Report/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/AT SOFT/webdrivermanager-5.3.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

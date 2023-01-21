@@ -35,7 +35,7 @@ public class Array
 				if (a[i]%j==0)
 				{
 					flag++;
-					break;
+					
 				}
 			}
 			if(flag==0)

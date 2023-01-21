@@ -5,6 +5,7 @@ public class Reverse
 
 	public static void main(String[] args) 
 	{
+		
 		String a="Velocity";
 		int l=a.length();
 		System.out.println(a+" ←←← is a String and its length is →→→→ "+l);

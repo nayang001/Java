@@ -15,7 +15,7 @@ public class Voting
 		{
 			if (age<18)
 			{
-				throw new UnderAgeException();
+				throw new UnderAgeException("Can not vote");
 			}
 			else
 			{

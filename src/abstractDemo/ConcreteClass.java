@@ -4,6 +4,7 @@ public class ConcreteClass extends AbstractClass
 {
 	public void sub()
 	{
+		
 		int x=45;
 		int y=12;
 		int z=x-y;

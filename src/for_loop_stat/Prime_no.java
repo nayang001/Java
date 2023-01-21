@@ -8,7 +8,7 @@ public class Prime_no
 
 	public static void main(String[] args) 
 	{
-		Scanner sc=new Scanner(System.in);
+		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter a number "); 
 		
 		int b=sc.nextInt(); int a,flag=0;
@@ -20,7 +20,6 @@ public class Prime_no
 				flag++;
 			}			
 		}
-		
 		if (flag==0)
 		{
 			System.out.println("Given value is Prime Value.");
